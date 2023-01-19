@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: rgb(54, 101, 121);
+}
+.quote-text{
+    margin-top: 50px;
+    font-size: 25px;
+}
+button{
+    color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(43, 81, 95);
+
+}
